@@ -10,7 +10,7 @@ public class Mailer {
 	public static void send(String to,String subject,String msg){  
 		  
 		final String user="Laxmanraghavraju@gmail.com";//change accordingly  
-		final String pass="Laxman.gmailing";  
+		final String pass="*********";  
 		  
 		//1st step) Get the session object    
 		 
