@@ -13,7 +13,7 @@ public class Mailer {
 		final String pass="*********";  
 		  
 		//1st step) Get the session object    
-		 
+		System.out.println("hello");
 		 Properties props = new Properties();  
 		 props.setProperty("mail.transport.protocol", "smtp");     
 		 props.setProperty("mail.host", "smtp.gmail.com");  
