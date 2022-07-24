@@ -22,8 +22,7 @@ public class Mailer {
 		 props.put("mail.debug", "true");  
 		 props.put("mail.smtp.socketFactory.port", "465");  
 		 props.put("mail.smtp.socketFactory.class","javax.net.ssl.SSLSocketFactory");  
-		 props.put("mail.smtp.socketFactory.fallback", "false");  
-		 
+		 props.put("mail.smtp.socketFactory.fallback", "false");log.info
 		Session session = Session.getDefaultInstance(props,  
 		 new javax.mail.Authenticator() {  
 		  protected PasswordAuthentication getPasswordAuthentication() {  
